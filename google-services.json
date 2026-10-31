@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "211350886455",
+    "project_id": "vhotis-4adb6",
+    "storage_bucket": "vhotis-4adb6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211350886455:android:69031d2d40c671ea0d47b2",
+        "android_client_info": {
+          "package_name": "com.vhotis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211350886455-f5lorpis606vj1tefjrqqo6drnqipfb5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vhotis",
+            "certificate_hash": "d7f4a3c5677cdaf71fbf20ecdffe7a61df5042ae"
+          }
+        },
+        {
+          "client_id": "211350886455-sb0g5tti6fjofkuv1vav49qro6udvcc5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZtRxD-hB4uw5JYZkpEjT8uO_rUzu_gvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211350886455-sb0g5tti6fjofkuv1vav49qro6udvcc5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "211350886455-dbm5j15sm4opk81ckqti8nifa8midqja.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vhotis"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211350886455:android:5e1c0aaa5c5c46a10d47b2",
+        "android_client_info": {
+          "package_name": "com.vhotis.rider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211350886455-sb0g5tti6fjofkuv1vav49qro6udvcc5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZtRxD-hB4uw5JYZkpEjT8uO_rUzu_gvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211350886455-sb0g5tti6fjofkuv1vav49qro6udvcc5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "211350886455-dbm5j15sm4opk81ckqti8nifa8midqja.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vhotis"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

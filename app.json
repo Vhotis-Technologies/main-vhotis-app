@@ -1,0 +1,125 @@
+{
+  "expo": {
+    "name": "Vhotis",
+    "slug": "vhotis-app",
+    "version": "1.0.0",
+    "owner": "vhotis-technologies",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "scheme": "vhotisapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vhotis",
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "associatedDomains": [
+        "applinks:60bb-51-37-143-144.ngrok-free.app"
+      ],
+      "config": {
+        "googleMapsApiKey": "AIzaSyDsgqiUNxSePJD9GIGd-ILcp2MByBNBhLE"
+      },
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo.png",
+        "backgroundColor": "#000000"
+      },
+      "googleServicesFile": "./google-services.json",
+      "edgeToEdgeEnabled": true,
+      "softwareKeyboardLayoutMode": "resize",
+      "package": "com.vhotis",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "category": ["BROWSABLE", "DEFAULT"],
+          "data": [
+            {
+              "scheme": "https",
+              "host": "60bb-51-37-143-144.ngrok-free.app",
+              "pathPrefix": "/m"
+            }
+          ]
+        }
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDsgqiUNxSePJD9GIGd-ILcp2MByBNBhLE"
+        }
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/logo.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      "expo-localization",
+      "expo-secure-store",
+      "expo-video",
+      "expo-web-browser",
+      [
+        "expo-document-picker",
+        {
+          "iCloudContainerEnvironment": "Production"
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/logo.png",
+          "color": "#ffffff",
+          "defaultChannel": "default"
+        }
+      ],
+      "expo-maps",
+      [
+        "@react-native-google-signin/google-signin",
+        {
+          "iosUrlScheme": "com.googleusercontent.apps.211350886455-dbm5j15sm4opk81ckqti8nifa8midqja"
+        }
+      ]
+    ],
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD",
+      "fallbackToCacheTimeout": 0,
+      "requestHeaders": {
+        "expo-channel-name": "production"
+      }
+    },
+    "runtimeVersion": "1.0.0",
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "baseURL": "https://60bb-51-37-143-144.ngrok-free.app/m", //staging  
+      "websocketURL": "wss://60bb-51-37-143-144.ngrok-free.app/ws/", //staging
+      "googoleApiKeys": "AIzaSyDsgqiUNxSePJD9GIGd-ILcp2MByBNBhLE",
+      "googleWebClientId": "211350886455-sb0g5tti6fjofkuv1vav49qro6udvcc5.apps.googleusercontent.com",
+      "googleIosClientId": "211350886455-dbm5j15sm4opk81ckqti8nifa8midqja.apps.googleusercontent.com",
+      "stripe": {
+        "publishableKey": "pk_test_51SBER0GTSkKa3CuQWDqULWc0sGzoV9PcmO2UrdD2ERTnAFivEHOGWVFjWeefGSmXDvTLuiriVAb7fx6H3k3z08eQ00KkE8GFyO"
+      },
+      "eas": {
+        "projectId": "ac79b848-48e7-4d3b-8175-bdae8a3d8739"
+      }
+    }
+  }
+}
